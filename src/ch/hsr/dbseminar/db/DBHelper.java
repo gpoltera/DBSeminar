@@ -35,9 +35,9 @@ public class DBHelper {
 
     private static final String TABLENAME = "testdata"; //name of the created table
     
-    private static final String QUERYCREATETABLE = "DROP TABLE IF EXISTS" + TABLENAME + ";\n"
-            + "CREATE TABLE" + TABLENAME + " (id INT, value INT);\n"
-            + "INSERT INTO" + TABLENAME + " (id, value) VALUES (1,10), (2,20), (3,100), (4,200);\n";
+    private static final String QUERYCREATETABLE = "DROP TABLE IF EXISTS " + TABLENAME + ";\n"
+            + "CREATE TABLE " + TABLENAME + " (id INT, value INT);\n"
+            + "INSERT INTO " + TABLENAME + " (id, value) VALUES (1,10), (2,20), (3,100), (4,200);\n";
 
     //drop the old table and create a new table
     public static void createTable(Connection connection) {
