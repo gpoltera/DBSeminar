@@ -32,7 +32,7 @@ import java.sql.SQLException;
 public class DBConnection {
     
     private static final String DB_POSTGRES_DRIVER = "org.postgresql.Driver"; //Postgres Driver
-    private static final String DB_URL_POSTGRES_PREFIX = "jdbc:postgresql://192.168.123.128:5432/Practices"; //URL to the Postgres Server (Localhost or Remote)
+    private static final String DB_URL_POSTGRES_PREFIX = "jdbc:postgresql://virtualpc:5432/Practices"; //URL to the Postgres Server (Localhost or Remote)
     private static final String DB_POSTGRES_USER = "postgres"; //DB username
     private static final String DB_POSTGRES_PASSWORD = "postgres"; //DB password
     private static final boolean LOG_ON = false; //Acitvates the extended Logging
